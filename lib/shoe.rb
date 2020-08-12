@@ -8,7 +8,7 @@ class Shoe
   end   
   
   def cobble
-    puts "Flipping the page...wow, you read fast!"
+    puts condition
   end
   
 end
