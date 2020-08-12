@@ -1,14 +1,14 @@
-# class Book
+class Book
   
-#   attr_accessor :author, :page_count, :genre
-#   attr_reader :title 
+  attr_accessor :author, :page_count, :genre
+  attr_reader :title 
   
-#   def initialize(title)
-#     @title = title #instance variables
-#   end   
+  def initialize(title)
+    @title = title #instance variables
+  end   
   
-#   def turn_page
-#     puts "Flipping the page...wow, you read fast!"
-#   end
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
   
-# end
+end
