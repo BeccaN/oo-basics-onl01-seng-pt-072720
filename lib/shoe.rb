@@ -1,10 +1,10 @@
 class Shoe
   
-  attr_accessor :brand, :color, :size, :material
-  attr_reader :title 
+  attr_accessor :color, :size, :material
+  attr_reader :brand
   
-  def initialize(title)
-    @title = title #instance variables
+  def initialize(brand)
+    @brand = brand #instance variables
   end   
   
   def turn_page
